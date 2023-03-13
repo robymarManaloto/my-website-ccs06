@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="https://drive.google.com/uc?export=view&id=1Li0EXSi600jYOeyGwcCSNyIW3WDRqCdi">
+    <title>Home - MANALOTO, ROBYMAR LOUISE C.</title>
+  </head>
+
+  <!-- Style is in here due to overridding in JSFiddle -->
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/poppins');
+
+    body {
+      background-image: url("https://drive.google.com/uc?export=view&id=1EYpCq_t4CAsX2VEv7L_SjRk6KC-4XDDL");
+      background-repeat: no-repeat;
+      background-size: 90em;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .nav-left {
+      margin-right: 4em;
+    }
+
+    .nav-link {
+      font-weight: bold;
+      color: black;
+      font-size: 1em;
+    }
+
+    .nav-link:hover {
+      color: #C2102D;
+    }
+
+    .nav-link.active {
+      text-decoration: underline solid #C2102D 30%;
+      text-underline-offset: 0.5em;
+    }
+
+    .controlbuttons {
+      position: absolute;
+      left: 2em;
+      bottom: 2.5em;
+    }
+
+    .controlbuttons>button {
+      background-color: #FBE8D3;
+      border-radius: 50%;
+      padding: 10px;
+      border: none;
+    }
+
+    .controlbuttons>button:hover {
+      opacity: 0.5;
+      transition: 0.4s;
+    }
+
+    .col.text {
+      padding: 5em 7em 10em 7em;
+    }
+
+    .col {
+      height: 60em;
+    }
+
+    .photo {
+      position: absolute;
+      z-index: -1;
+      left: 20em;
+      top: -10em;
+    }
+
+    .photo-1 {
+      position: absolute;
+      z-index: -1;
+      left: -13em;
+      top: -13em;
+    }
+
+    .photo-2 {
+      position: absolute;
+      z-index: -1;
+      left: 0em;
+      top: -15em;
+    }
+
+    .front {
+      position: absolute;
+      z-index: -1;
+      top: 30em;
+      right: 0em;
+    }
+
+    .heading-name {
+      font-weight: bold;
+      text-transform: uppercase;
+      font-size: 4em;
+      color: #000000;
+    }
+
+    .btn.btn-danger {
+      border-radius: 7px 0px 7px;
+      background-color: #C2102D;
+    }
+
+    .btn.btn-danger:hover {
+      opacity: 0.7;
+      transition: 0.3s;
+    }
+
+    .content {
+      font-size: 1.2em;
+    }
+
+  </style>
+
+
+  <body>
+
+    <!-- HEADER -->
+    <header class="p-4">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none" style="margin-right:5em;">
+            <img src="https://drive.google.com/uc?export=view&id=1Li0EXSi600jYOeyGwcCSNyIW3WDRqCdi" height="80" role="img" aria-label="Bootstrap">
+          </a>
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="#" class="nav-link px-2 nav-left active">Home</a></li>
+            <li><a href="#" class="nav-link px-2 nav-left">About Me</a></li>
+          </ul>
+          <div class="text-end">
+            <a href="#" class="nav-link px-2">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- CONTENT -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <div class="row">
+            <div class="col text">
+              <div class="text col-md-12 px-0">
+                <h3>Hi, I’m Robymar Manaloto!</h3>
+                <h1 class="heading-name">“My Work is a reflection of who am i”</h1>
+                <p class="content">Hello and welcome to my portfolio! My name is Robymar Manaloto and I'm a Computer Science Student in Angeles University Foundation. I specialize in Data Science and I'm passionate about creating computer programs that could help the world.</p>
+                <button type="button" class="btn btn-danger">Learn More!</button>
+              </div>
+            </div>
+            <div class="col">
+              <div class="photo">
+                <img src="https://drive.google.com/uc?export=view&id=1jIQagT6I1MuioCAekgOafaMbtIS8QqFG" height="1500em">
+              </div>
+              <div class="front">
+                <img src="https://drive.google.com/uc?export=view&id=14pAGlEhGMe8AylnhjjvzGJN_-mFGrOSQ" height="800em">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="carousel-item">
+          <div class="row">
+            <div class="col text">
+              <div class="text col-md-12 px-0">
+                <h1 class="heading-name">Skills and Experience</h1>
+                <p class="content">On this website, you'll find examples of my work, my skills, and my experience. Whether you're a potential client, employer, or just someone curious about my work, I hope you find what you're looking for here. Thanks for visiting!</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="photo-1">
+
+
+                <img src="https://drive.google.com/uc?export=view&id=1o8urR8BO9HCjwLWdqqrDVjMoi9jXFS3z" height="1300em">
+              </div>
+              <div class="front">
+                <img src="https://drive.google.com/uc?export=view&id=14pAGlEhGMe8AylnhjjvzGJN_-mFGrOSQ" height="800em">
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="carousel-item">
+
+          <div class="row">
+            <div class="col text">
+              <div class="text col-md-12 px-0">
+                <h1 class="heading-name">Coding and Creativity</h1>
+                <p class="content">Through my coding projects, I've tackled everything from web development to machine learning. I'm excited to show you what I've been working on, and I hope you find some inspiration for your own projects. Thanks for stopping by!</p>
+              </div>
+            </div>
+            <div class="col">
+              <div class="photo-2">
+                <img src="https://drive.google.com/uc?export=view&id=1yxpkqmxE_SvsliBSVVqYUSK-PwGVpHrm" height="1300em">
+              </div>
+              <div class="front">
+                <img src="https://drive.google.com/uc?export=view&id=14pAGlEhGMe8AylnhjjvzGJN_-mFGrOSQ" height="800em">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- BUTTONS -->
+      <div class="controlbuttons">
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FF7069" class="bi bi-arrow-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z" /></svg>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="#FF7069" class="bi bi-arrow-right" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z" /></svg>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </body>
+
+</html>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
